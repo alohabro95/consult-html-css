@@ -1,0 +1,375 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.btn {
+  background-color: #387ef9;
+  width: 142px;
+  height: 46px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  color: aliceblue;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  height: 106px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  height: 46px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__list {
+  display: flex;
+  justify-content: space-between;
+  width: 528px;
+  margin-left: auto;
+  margin-right: 35px;
+}
+
+.header__list > li {
+  list-style: none;
+  padding: 12px;
+}
+
+.header__logo {
+  height: 26px;
+  width: auto;
+  align-self: center;
+}
+
+.section-hero {
+  margin-bottom: 100px;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: url(./images/background.png) no-repeat;
+}
+
+.hero__body {
+  margin: 0 auto;
+  width: 1140px;
+  padding-top: 242px;
+}
+
+.hero__title {
+  max-width: 764px;
+  font-size: 56px;
+  padding-bottom: 42px;
+  position: relative;
+}
+
+.hero__title::after {
+  content: "";
+  width: 50px;
+  height: 5px;
+  background-color: #387ef9;
+  position: absolute;
+  bottom: 18%;
+  left: 0%;
+  border-radius: 5px;
+}
+
+.hero__text {
+  max-width: 380px;
+  line-height: 26px;
+  padding-bottom: 48px;
+}
+
+.services {
+  max-width: 1140px;
+  max-height: 552px;
+  margin: 0 auto;
+}
+
+.services__title {
+  font-size: 36px;
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.services__title::after {
+  content: "";
+  width: 50px;
+  height: 5px;
+  background-color: #387ef9;
+  position: absolute;
+  bottom: -15%;
+  left: 0%;
+  border-radius: 5px;
+}
+
+.services__text {
+  max-width: 355px;
+  color: #1d272e;
+  opacity: 0.7;
+  margin-bottom: 82px;
+}
+
+.services__cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 78px;
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-bottom: 78px;
+}
+
+.cards__item {
+  width: 360px;
+  max-height: 340px;
+  border: 1px solid #c8d0da;
+  padding-left: 34px;
+  padding-top: 47px;
+}
+
+.cards__logo {
+  padding-bottom: 15px;
+}
+
+.cards__title {
+  font-size: 22px;
+  padding-bottom: 22px;
+}
+
+.cards__text {
+  max-width: 236px;
+  padding-bottom: 65px;
+  opacity: 0.7;
+  line-height: 26px;
+}
+
+.cards__item:nth-child(2n) {
+  border: none;
+  transform: translateY(-15px);
+  box-shadow: 0px 0px 40px rgba(29, 39, 46, 0.08);
+}
+
+.services__btn {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ctx__1 {
+  color: #909599;
+}
+
+.services__footer {
+  display: flex;
+  justify-content: center;
+}
+
+.section-services {
+  margin-bottom: 258px;
+}
+
+.section-about {
+  background-color: #f6f9ff;
+  margin-bottom: 50px;
+}
+
+.about {
+  margin: 0 auto;
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left__about {
+  max-width: 448px;
+  padding-top: 218px;
+}
+
+.about__title {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.about__title::after {
+  content: "";
+  width: 50px;
+  height: 5px;
+  background-color: #387ef9;
+  position: absolute;
+  bottom: -15%;
+  left: 0%;
+  border-radius: 5px;
+}
+
+.about__text--blue {
+  color: #387ef9;
+  max-width: 310px;
+  max-height: 56px;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+.about__text {
+  max-width: 448px;
+  margin-bottom: 36px;
+}
+
+.right__about {
+  padding-top: 82px;
+}
+
+.brands__text {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  margin-bottom: 120px;
+}
+
+.brands__list {
+  margin: 0 auto;
+  width: 1028px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.section-brands {
+  margin-bottom: 222px;
+}
+
+.news {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+.news__title {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.news__title::after {
+  content: "";
+  width: 50px;
+  height: 5px;
+  background-color: #387ef9;
+  position: absolute;
+  bottom: -15%;
+  left: 0%;
+  border-radius: 5px;
+}
+
+.news__text {
+  max-width: 408px;
+  opacity: 0.7;
+  margin-bottom: 70px;
+}
+
+.news__cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 76px;
+}
+
+.item__img {
+  margin-bottom: 16px;
+  width: 360px;
+  height: 270px;
+}
+
+.item__teg {
+  width: 68px;
+  height: 32px;
+  border-radius: 9px;
+  font-size: 14px;
+  line-height: 33px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.item__teg--red {
+  background-color: rgba(255, 99, 99, 0.2);
+  color: #ff6363;
+  width: 68px;
+}
+
+.item__teg--blue {
+  background-color: rgba(99, 180, 255, 0.2);
+  color: #63b4ff;
+  width: 94px;
+}
+
+.item__teg--blue {
+  background-color: rgba(63, 208, 156, 0.2);
+  color: #3fd09c;
+  width: 112px;
+}
+
+.item__title {
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 16px;
+}
+
+.item__content {
+  color: #909599;
+  margin-bottom: 20px;
+}
+
+.item__author {
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+.item__data {
+  color: #909599;
+}
+
+.news__button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 182px;
+}
+
+.review {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+.review__title {
+  font-size: 36px;
+  line-height: 46px;
+  margin-bottom: 30px;
+}
+
+.review__content {
+  color: #1d272e;
+}
