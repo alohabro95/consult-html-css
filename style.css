@@ -434,3 +434,86 @@ html {
 .card__text {
   line-height: 160%;
 }
+
+.section-review {
+  margin-bottom: 336px;
+}
+
+.section-subscription {
+  background-color: #f6f9ff;
+}
+
+.subscription {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.subscription__title {
+  margin: 0 auto;
+  font-size: 32px;
+  text-align: center;
+  width: 860px;
+  height: 78px;
+  margin-bottom: 100px;
+}
+
+.subscription__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 116px;
+}
+
+.sub__btn {
+  width: 242px;
+  height: 54px;
+  font-size: 18px;
+  color: white;
+  background-color: #102e49;
+  border-radius: 10px;
+}
+
+.sub__cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub__item {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  align-items: center;
+  padding: 64px 0;
+}
+
+.sub__item__title {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.sub__item__price {
+  font-size: 54px;
+  line-height: 64.8px;
+  margin-bottom: 18px;
+}
+
+.sub__item__text {
+  width: 256px;
+  height: 78px;
+  color: #a2aab9;
+  text-align: center;
+}
+
+.sub__item__list {
+  margin-bottom: 55px;
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.sub__item2 {
+  border: none;
+  background-color: #102e49;
+  color: #ffffff;
+}
