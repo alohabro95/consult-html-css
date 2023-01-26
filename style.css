@@ -441,6 +441,7 @@ html {
 
 .section-subscription {
   background-color: #f6f9ff;
+  padding-bottom: 266px;
 }
 
 .subscription {
@@ -504,6 +505,7 @@ html {
   height: 78px;
   color: #a2aab9;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .sub__item__list {
@@ -516,4 +518,15 @@ html {
   border: none;
   background-color: #102e49;
   color: #ffffff;
+}
+
+.sub__btn--bot {
+  width: 276px;
+  height: 52px;
+}
+
+.sub__item__list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
